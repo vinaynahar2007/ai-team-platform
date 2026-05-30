@@ -27,7 +27,7 @@ const fetchProfile = async () => {
   if (!token) return
 
   const response = await fetch(
-    "http://127.0.0.1:8000/profile/me",
+    "https://ai-team-platform-m2bs.onrender.com//profile/me",
     {
       headers: {
         Authorization: `Bearer ${token}`
