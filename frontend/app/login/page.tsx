@@ -13,7 +13,7 @@ export default function LoginPage() {
   const handleLogin = async () => {
 
     const response = await fetch(
-      "https://ai-team-platform-3cm0.onrender.com/login",
+      "http://127.0.0.1:8000/login",
       {
         method: "POST",
 

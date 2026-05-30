@@ -31,7 +31,7 @@ export default function MatchesPage() {
     const token = localStorage.getItem("token")
 
     const response = await fetch(
-      "https://ai-team-platform-3cm0.onrender.com/match-users",
+      "http://127.0.0.1:8000/match-users",
       {
         headers: {
           Authorization: `Bearer ${token}`

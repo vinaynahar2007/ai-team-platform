@@ -25,7 +25,7 @@ export default function ProjectsPage() {
     const token = localStorage.getItem("token")
 
     const response = await fetch(
-      "https://ai-team-platform-3cm0.onrender.com/project-ideas",
+      "http://127.0.0.1:8000/project-ideas",
       {
         headers: {
           Authorization: `Bearer ${token}`

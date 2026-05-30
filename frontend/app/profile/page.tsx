@@ -50,7 +50,7 @@ export default function ProfilePage() {
     const token = localStorage.getItem("token")
 
     const response = await fetch(
-      "https://ai-team-platform-3cm0.onrender.com/profile/me",
+      "http://127.0.0.1:8000/profile/me",
       {
         headers: {
           Authorization: `Bearer ${token}`
@@ -76,7 +76,7 @@ export default function ProfilePage() {
     const token = localStorage.getItem("token")
 
     const response = await fetch(
-      "https://ai-team-platform-3cm0.onrender.com/profile",
+      "http://127.0.0.1:8000/profile",
       {
         method: "POST",
 
