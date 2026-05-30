@@ -64,7 +64,7 @@ export default function DashboardPage() {
     setMatchesCount(matchesData.matches?.length || 0)
 
     const projectsResponse = await fetch(
-      "https://ai-team-platform-m2bs.onrender.com//project-ideas",
+      "https://ai-team-platform-m2bs\.onrender\.com/project-ideas",
       { headers }
     )
 
