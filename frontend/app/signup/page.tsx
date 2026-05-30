@@ -21,7 +21,7 @@ export default function SignupPage() {
   const handleSignup = async () => {
 
     const response = await fetch(
-      "https://ai-team-platform-m2bs.onrender.com//signup",
+      "https://ai-team-platform-m2bs.onrender.com/signup",
       {
         method: "POST",
 

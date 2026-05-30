@@ -25,7 +25,7 @@ export default function TeamPage() {
     const token = localStorage.getItem("token")
 
     const response = await fetch(
-      "https://ai-team-platform-m2bs.onrender.com//generate-team",
+      "https://ai-team-platform-m2bs.onrender.com/generate-team",
       {
         headers: {
           Authorization: `Bearer ${token}`

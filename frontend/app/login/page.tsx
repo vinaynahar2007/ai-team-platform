@@ -13,7 +13,7 @@ export default function LoginPage() {
   const handleLogin = async () => {
 
     const response = await fetch(
-      "https://ai-team-platform-m2bs.onrender.com//login",
+      "https://ai-team-platform-m2bs.onrender.com/login",
       {
         method: "POST",
 

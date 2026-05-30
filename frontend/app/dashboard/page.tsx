@@ -33,7 +33,7 @@ export default function DashboardPage() {
     const token = localStorage.getItem("token")
 
     const response = await fetch(
-      "https://ai-team-platform-m2bs.onrender.com//profile/me",
+      "https://ai-team-platform-m2bs.onrender.com/profile/me",
       {
         headers: {
           Authorization: `Bearer ${token}`
@@ -55,7 +55,7 @@ export default function DashboardPage() {
     }
 
     const matchesResponse = await fetch(
-      "https://ai-team-platform-m2bs.onrender.com//match-users",
+      "https://ai-team-platform-m2bs.onrender.com/match-users",
       { headers }
     )
 
@@ -73,7 +73,7 @@ export default function DashboardPage() {
     setProjectsCount(projectsData.projects?.length || 0)
 
     const teamResponse = await fetch(
-      "https://ai-team-platform-m2bs.onrender.com//generate-team",
+      "https://ai-team-platform-m2bs.onrender.com/generate-team",
       { headers }
     )
 
