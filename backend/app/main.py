@@ -15,8 +15,9 @@ app.add_middleware(
     CORSMiddleware,
 
     allow_origins=[
-        "http://localhost:3000",
-        "https://ai-team-platform-hxssqemvb-vinaynahar2007-2731s-projects.vercel.app"
+    "http://localhost:3000",
+    "https://vinaynahar2007-ai-team-platform.vercel.app",
+    "https://ai-team-platform-hxssqemvb-vinaynahar2007-2731s-projects.vercel.app"
     ],
 
     allow_credentials=True,
